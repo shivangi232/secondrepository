@@ -1,0 +1,47 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+// # Online Python compiler (interpreter) to run Python online.
+// # Write Python 3 code in this online editor and run it.
+
+var list = [4,2,3,1]   
+
+var dict ={}
+for (let i=0;i<list.length;i++){
+    console.log(list[i])
+    if (list[i] in Object.keys(dict)){
+        dict[list[i]] = 2
+    }
+    else{
+        dict[list[i]] =1
+    }
+}
+//     # j = i+1
+// # for j in range(len(list)):
+// #     if (list[i] == list[j]):
+// #       b = b+1
+      
+//     # dict[list[i]] = b
+
+
+console.log(dict)
+var a = Object.values(dict)
+console.log(a)
+var f = 0
+for (i in a){
+    if (i > 1)
+    {
+        f = 1
+    }
+}
+    
+if (f == 0){
+    console.log("false")
+}
+else{
+    console.log("true")
+}
+//console.log(dict.values())
+console.log(a)
+
+
