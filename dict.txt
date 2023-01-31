@@ -5,7 +5,7 @@
 // # Online Python compiler (interpreter) to run Python online.
 // # Write Python 3 code in this online editor and run it.
 
-var list = [4,2,3,1]   
+var list = [4,2,3,1,6,5,8,9]
 
 var dict ={}
 for (let i=0;i<list.length;i++){
